@@ -1,0 +1,41 @@
+footer {
+    background-color: var(--athens-gray);
+    display: block;
+    padding: var(--padding);
+}
+
+.double-arrow img {
+    width: 50px;
+    background-color: var(--salmon);
+    margin: 0 auto;
+    margin-top: -50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.icon-container {
+    border: 2px solid var(--oxford-blue);
+    display: flex;
+    justify-content: center;
+    padding: var(--padding);
+
+}
+
+.icon-container img {
+    width: 50px;
+    margin: 0 var(--margin);
+}
+
+.footnote {
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: var(--margin);
+
+}
+
+.highlight {
+    color: var(--salmon);
+    font-weight: 600;
+}

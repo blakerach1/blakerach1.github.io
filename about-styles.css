@@ -1,0 +1,94 @@
+.about-section {
+    width: 100%;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--oxford-blue);
+}
+
+.about-section h2 {
+    color: var(--athens-gray);
+}
+
+.skill-cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 35px;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border: 1px solid var(--athens-gray);
+}
+
+.individual-card {
+    padding: var(--spacing-unit);
+    text-align: center;
+    background-color: var(--athens-gray);
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    overflow: visible;
+}
+
+/* Styling a background card */
+.card-image {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-right: 50px;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+}
+
+.individual-card img {
+    width: 50px;
+}
+
+.profile {
+    width: 75%;
+    background-color: var(--athens-gray);
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding);
+}
+
+.profile img {
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+.profile p {
+    margin-bottom: 20px;
+}
+
+@media(min-width:768px) {
+    .skills-cards {
+        justify-content: space-evenly;
+    }
+
+    .profile {
+        max-width: 800px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .individual-card {
+        max-width: 150px;
+        border: 1px solid black;
+    }
+}

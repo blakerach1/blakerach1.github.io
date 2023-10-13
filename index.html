@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Project Portfolio</title>
+    <link rel="stylesheet" href="general-styles.css">
+    <link rel="stylesheet" href="header-styles.css">
+    <link rel="stylesheet" href="about-styles.css">
+    <link rel="stylesheet" href="project-styles.css">
+    <link rel="stylesheet" href="contact-styles.css">
+    <link rel="stylesheet" href="footer-styles.css">
+
+</head>
+
+<body>
+    <!-- Home -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding"><img id="ant-eater" src="icons/ant-eater.svg"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <div class="intro-tag">
+            <h1>Hi! I'm Rachel</h1>
+            <p>I'm an aspiring web developer.</p>
+            <a href="#projects-1">View my work</a>
+        </div>
+
+    </header>
+
+    <!-- About -->
+
+    <section class="about-section">
+        <h2>ABOUT</h2>
+
+        <!-- Skills -->
+
+        <div class="skill-cards">
+            <div class="card-container">
+                <div class="individual-card">
+                    <div class="card-image">
+                        <img src="icons/html-icon.svg" alt="HTML icon">
+                    </div>
+                    <div class="card-content">
+                        <h4>HMTL</h4>
+                        <p>Beginner level of HTML</p>
+                    </div>
+                </div>
+                <div class="individual-card">
+                    <div class="card-image">
+                        <img src="icons/css-icon.svg" alt="CSS icon">
+                    </div>
+                    <div class="card-content">
+                        <h4>CSS</h4>
+                        <p>Beginner level of CSS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="individual-card">
+                    <div class="card-image">
+                        <img src="icons/js-icon.svg" alt="JavaScript icon">
+                    </div>
+                    <div class="card-content">
+                        <h4>JavaScript</h4>
+                        <p>Beginner level of JavaScript</p>
+                    </div>
+                </div>
+                <div class="individual-card">
+                    <div class="card-image">
+                        <img src="icons/python-icon.svg" alt="Python icon">
+                    </div>
+                    <div class="card-content">
+                        <h4>Python</h4>
+                        <p>Beginner level of Python</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Biography -->
+
+        <div class="profile">
+            <img src="images/profile-pic-rachel.png" alt="Profile Picture of Rachel Blake">
+            <h3>It's great to meet you!</h3>
+            <p>Hello there! &#128075 I am Rachel, a passionate and driven individual currently immersed in the exciting
+                world of technology. I am thrilled to be a part of the SheCodes 2023 cohort, where I am honing my skills
+                in web development using technologies like HTML, CSS, Python, Django, Django Rest Framework, JavaScript,
+                and React. This intensive program is gearing me up for a grand finale: a showcase in late April 2024
+                where I will be unveiling the projects I have meticulously crafted.</p>
+
+            <p>In tandem with my SheCodes journey, I am pursuing a Diploma of Information Technology. This
+                comprehensive course not only equips me with expertise in database and data management but also delves
+                into crucial aspects like hosting and deployment, privacy and security, blockchain, and artificial
+                intelligence. My hunger for knowledge knows no bounds, and I am constantly seeking to expand my horizons
+                in the ever-evolving tech landscape.</p>
+
+            <p>Prior to my venture into the tech realm, I garnered valuable experience in finance and commercial
+                settings. This diverse background has endowed me with a unique perspective, enabling me to approach
+                challenges with adaptability, conscientiousness, attention to detail, and strategic thinking. Armed with
+                this potent blend of skills and experience, I am poised to make a significant impact in the realm of
+                development.</p>
+
+            <p>I am not merely chasing a career; I am on a mission to innovate, create, and contribute meaningfully to
+                the tech community. With each line of code I write and every project I undertake, I am driven by a
+                singular goal: to leave an indelible mark on the world of technology.</p>
+
+            <p>Join me on this exhilarating journey, and reach out today! &#128640 &#127775</p>
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section class="projects-section" id="projects-1">
+        <h2>PROJECTS</h2>
+        <div class="project-boxes">
+
+            <div class="project-box">
+                <img class="html-logo" src="icons/html-icon.svg" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="project-box">
+                <img src="icons/css-icon.svg" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="project-box">
+                <img src="icons/js-icon.svg" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="project-box">
+                <img src="icons/python-icon.svg" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>CONTACT</h2>
+            <p>Have a question or want to work together?</p>
+            <form class="contact-form" action="process_form.php" method="post">
+                <input id="name-box" placeholder="Name" type="text" name="name" required>
+                <input id="email-box" placeholder="Enter email" type="text" name="email" required>
+                <textarea id="text-box" placeholder="Your Message" rows="15"></textarea>
+                <button id="submit-button">Submit</button>
+                <p id="submit-success">Your message was sent successfully. Thanks!</p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="double-arrow">
+            <a href="#"><img src="icons/double-arrow.svg"></a>
+        </div>
+        <div class="icon-container">
+            <a href=""><img src="images/linkedin-logo.png"></a>
+            <a href=""><img src="images/github-logo.png"></a>
+            <a href=""><img src="images/instagram-logo.png"></a>
+        </div>
+        <div class="footnote">
+            <p>RACHEL BLAKE <span class="highlight">&copy; 2023</span></p>
+        </div>
+    </footer>
+
+
+
+    <script src=" script.js"></script>
+
+</body>
+
+
+
+</html>
