@@ -159,11 +159,12 @@
         <div class="contact-container">
             <h2>CONTACT</h2>
             <p>Have a question or want to work together?</p>
-            <form class="contact-form" action="process_form.php" method="post">
+            <form id="myForm" class="contact-form" action="https://formspree.io/f/mwkdabok" method="POST"
+                onsubmit="clearFormAfterSubmission()">
                 <input id="name-box" placeholder="Name" type="text" name="name" required>
                 <input id="email-box" placeholder="Enter email" type="text" name="email" required>
-                <textarea id="text-box" placeholder="Your Message" rows="15"></textarea>
-                <button id="submit-button">Submit</button>
+                <textarea id="text-box" placeholder="Your Message" rows="15" name="message"></textarea>
+                <button id="submit-button" type="submit">Submit</button>
                 <p id="submit-success">Your message was sent successfully. Thanks!</p>
             </form>
         </div>

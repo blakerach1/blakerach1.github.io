@@ -16,6 +16,18 @@ const successMessage = document.querySelector("#submit-success");
 // Change the display style of the paragraph to 'block' to make visible
 submitClick.addEventListener('click', function() {
     successMessage.style.display = 'block';
+
 })
 
 
+// Clear input fields
+function clearFormAfterSubmission() {
+   // Allow the form to submit normally, then clear input fields after a short delay 
+
+setTimeout(function() {
+    // Clear input fields
+document.getElementById("name-box").value= '';
+document.getElementById("email-box").value= '';
+document.getElementById("text-box").value= '';
+}, 100); // 100 milliseconds delay before clearing the form
+}
