@@ -28,7 +28,7 @@
 }
 
 
-@media(min-width:768px) {
+@media(min-width:769px) {
     .project-boxes {
         display: flex;
         flex-direction: row;
