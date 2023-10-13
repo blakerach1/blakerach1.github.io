@@ -37,8 +37,11 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     line-height: 1.75;
-    background-color: var(--dusty-gray);
+}
 
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 /* h1, h2, h3, h4, h5, h6 {
@@ -77,10 +80,6 @@ ol, ul {
 img {
     max-width: 100%;
     height: auto;
-}
-
-.material-symbols-outlined {
-    width: 10px;
 }
 
 a {
