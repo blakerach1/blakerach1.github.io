@@ -1,0 +1,62 @@
+.contact-section {
+    min-height: 65vh;
+    padding: var(--padding);
+    background-color: var(--oxford-blue);
+
+}
+
+.contact-container {
+    border: 2px solid var(--dusty-gray);
+    background-color: var(--athens-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-form {
+    border: 2px solid var(--dusty-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 75%;
+    margin-bottom: 1.5rem;
+}
+
+#name-box::placeholder, #email-box::placeholder, #text-box::placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    opacity: 0.5;
+    text-indent: 5px;
+}
+
+#text-box {
+    padding: 0.625rem 0;
+}
+
+#name-box, #email-box, #text-box {
+    margin: 0.125rem;
+}
+
+#name-box, #email-box {
+    height: 1.8rem;
+}
+
+#submit-button {
+    width: 100px;
+    height: 2.5rem;
+    align-self: flex-end;
+    font-family: 'Raleway', sans-serif;
+}
+
+#submit-success {
+    display: none;
+    font-size: 0.8rem;
+}
+
+
+@media(min-width:768px) {
+    .contact-form {
+        max-width: 500px;
+    }
+}
