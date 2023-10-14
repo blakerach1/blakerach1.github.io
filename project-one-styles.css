@@ -1,0 +1,67 @@
+.navbar {
+    background-color: var(--oxford-blue);
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid var(--salmon);
+}
+
+header {
+    margin-top: 5rem;
+}
+
+
+header h1, p {
+    text-align: center;
+}
+
+#ant-eater {
+    width: 75px;
+    fill: var(--salmon);
+}
+
+.picture-boxes {
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+
+}
+
+.picture-box {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+    border: 1px solid var(--oxford-blue);
+    margin: var(--margin);
+    background-color: var(--athens-gray);
+    align-items: center;
+    text-align: center;
+    min-width: 20rem;
+}
+
+.picture-box img {
+    min-width: 50px;
+    border: 2px solid var(--oxford-blue);
+    border-radius: 1rem;
+}
+
+#bio-screenshot {
+    min-width: 500px;
+}
+
+#contact-screenshot {
+    max-width: 350px;
+}
+
+.screenshot-description {
+    margin-top: 1rem;
+}
+
+.screenshot-description p {
+    font-weight: 600;
+}
