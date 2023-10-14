@@ -15,7 +15,7 @@
     display: flex;
     /* width: 100%; */
     justify-content: space-between;
-    margin: 35px;
+    margin: 2rem;
 
 }
 
@@ -28,25 +28,23 @@
 }
 
 .individual-card {
-
     padding: var(--spacing-unit);
     text-align: center;
-    font-size: 11px;
+    font-size: 0.6rem;
     background-color: var(--athens-gray);
     flex: 1;
     margin: 10px;
     overflow: visible;
-
 }
 
 /* Styling a background card */
 .card-image {
     display: flex;
-    margin-bottom: 20px;
-    margin-top: -20px;
-    margin-right: 50px;
+    margin-bottom: 0.6rem;
+    margin-top: -1.25rem;
+    margin-right: 2rem;
     width: 100px;
-    height: 75px;
+    min-height: 4rem;
     background-color: white;
     justify-content: center;
 }
@@ -54,8 +52,6 @@
 .individual-card img {
     width: 50px;
 }
-
-
 
 .profile {
     display: flex;

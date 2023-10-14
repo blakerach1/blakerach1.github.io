@@ -1,5 +1,5 @@
 .contact-section {
-    max-height: 65vh;
+    min-height: 65vh;
     padding: var(--padding);
     background-color: var(--oxford-blue);
 
@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    text-align: center;
 }
 
 .contact-form {
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 75%;
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
 }
 
 #name-box::placeholder, #email-box::placeholder, #text-box::placeholder {
@@ -31,23 +31,22 @@
 }
 
 #text-box {
-    padding: 10px 0;
-
+    padding: 0.625rem 0;
 }
 
 #name-box, #email-box, #text-box {
-    margin: 2px;
+    margin: 0.125rem;
 }
 
 #name-box, #email-box {
-    height: 30px;
-
+    height: 1.8rem;
 }
 
 #submit-button {
     width: 100px;
-    height: 40px;
+    height: 2.5rem;
     align-self: flex-end;
+    font-family: 'Raleway', sans-serif;
 }
 
 #submit-success {

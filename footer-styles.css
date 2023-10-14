@@ -5,10 +5,10 @@ footer {
 }
 
 .double-arrow img {
-    width: 50px;
+    width: 2.5rem;
     background-color: var(--salmon);
     margin: 0 auto;
-    margin-top: -50px;
+    margin-top: -3rem;
     position: absolute;
     right: 0;
     left: 0;
