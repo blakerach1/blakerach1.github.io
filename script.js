@@ -20,7 +20,7 @@ submitClick.addEventListener('click', function() {
 })
 
 
-// Clear input fields
+// Clear form input fields
 function clearFormAfterSubmission() {
    // Allow the form to submit normally, then clear input fields after a short delay 
 
