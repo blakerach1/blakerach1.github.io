@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rachel Blake</title>
     <link rel="stylesheet" href="general-styles.css">
     <link rel="stylesheet" href="header-styles.css">
@@ -169,8 +169,8 @@
             <p>Have a question or want to work together?</p>
             <form id="myForm" class="contact-form" action="https://formspree.io/f/mwkdabok" method="POST"
                 onsubmit="clearFormAfterSubmission()">
-                <input id="name-box" placeholder="Name" type="text" name="name" required>
-                <input id="email-box" placeholder="Enter email" type="text" name="email" required>
+                <input id="name-box" placeholder="Name" type="text" name="name" required autocomplete="name">
+                <input id="email-box" placeholder="Enter email" type="text" name="email" required autocomplete="email">
                 <textarea id="text-box" placeholder="Your Message" rows="15" name="message"></textarea>
                 <button id="submit-button" type="submit">Submit</button>
                 <p id="submit-success">Your message was sent successfully. Thanks!</p>

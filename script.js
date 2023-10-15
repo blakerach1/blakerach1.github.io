@@ -32,7 +32,6 @@ document.getElementById("text-box").value= '';
 }, 100); // 100 milliseconds delay before clearing the form
 }
 
-
 document.getElementById("externalLink").addEventListener("click", function(event) {
     var confirmation = confirm("Warning: This link will open in a new window. Do you want to continue?");
     if (!confirmation) {

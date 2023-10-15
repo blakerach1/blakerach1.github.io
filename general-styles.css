@@ -1,3 +1,6 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,600;1,400&display=swap');
+
 :root {
     --athens-gray: #e9e7ee;
     --silver-sand: #b7bcbf;
@@ -14,9 +17,6 @@
     --margin: 0.6rem;
     --padding: 1.25rem;
 }
-
-/* font */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,600;1,400&display=swap');
 
 html {
     box-sizing: border-box;

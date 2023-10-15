@@ -34,6 +34,7 @@
 - [ ] JavaScript used to ensure navigation menu disappears when a navigation link is selected.
 - [ ] JavaScript used to display a successful form submission message on submit button click.
 - [ ] JavaScript used to clear the form after a short delay following the submit button click.
+- [ ] JavaScript to warn user that they are about to navigate to an external site.
 
 ### Screenshots
 

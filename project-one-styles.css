@@ -62,6 +62,22 @@ header h1, p {
     font-size: 0.9rem;
 }
 
+.project-overview a {
+    color: var(--oxford-blue);
+    align-self: center;
+    text-decoration: none;
+    border: 2px solid var(--oxford-blue);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px var(--dusty-gray);
+    text-shadow: 2px 2px 3px var(--dusty-gray);
+    padding: 0.5rem;
+}
+
+.project-overview a:hover {
+    color: var(--salmon);
+    background-color: var(--oxford-blue);
+}
+
 .picture-box {
     display: flex;
     flex-direction: column;
