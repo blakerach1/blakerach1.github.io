@@ -40,3 +40,15 @@ document.getElementById("externalLink").addEventListener("click", function(event
     }
 });
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    var menuItems = document.querySelectorAll('.nav-link');
+
+    menuItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            // Toggle the class that controls the display of the navigation menu
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    });
+
+});
