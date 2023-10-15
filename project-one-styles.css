@@ -21,6 +21,9 @@ header {
     margin-top: 5rem;
 }
 
+header h1 {
+    text-shadow: 2px 2px 4px var(--dusty-gray);
+}
 
 header h1, p {
     text-align: center;
@@ -49,13 +52,14 @@ header h1, p {
     padding: var(--padding);
     background-color: var(--athens-gray);
     width: 100%;
-    margin-bottom: var(--margin);
+    margin: var(--margin) 0;
     box-shadow: 2px 2px 10px var(--oxford-blue);
 }
 
 .project-overview p {
     text-align: start;
     margin: var(--margin) 0;
+    font-size: 0.9rem;
 }
 
 .picture-box {
@@ -63,6 +67,7 @@ header h1, p {
     flex-direction: column;
     padding: var(--padding);
     border: 1px solid var(--oxford-blue);
+    box-shadow: 2px 2px 10px var(--oxford-blue);
     margin: var(--margin);
     background-color: var(--athens-gray);
     align-items: center;
@@ -76,9 +81,6 @@ header h1, p {
     border-radius: 1rem;
 }
 
-#bio-screenshot {
-    min-width: 500px;
-}
 
 #contact-screenshot {
     max-width: 350px;
@@ -109,6 +111,10 @@ footer {
     .picture-boxes {
         max-width: 700px;
         margin: 1rem auto;
+    }
+
+    .project-overview p {
+        font-size: 1rem;
     }
 
 }

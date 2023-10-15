@@ -28,6 +28,7 @@
     color: black;
     opacity: 0.5;
     text-indent: 5px;
+
 }
 
 #text-box {
@@ -57,6 +58,11 @@
 
 @media(min-width:768px) {
     .contact-form {
-        max-width: 500px;
+        max-width: 30rem;
+    }
+
+    .contact-container {
+        max-width: 45rem;
+        margin: 0 auto;
     }
 }
